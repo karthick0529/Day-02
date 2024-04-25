@@ -1,0 +1,34 @@
+Write a blog difference between document and window objects
+
+Document Object:
+
+• The document object represents the HTML document loaded in the browser window. It serves as the entry point to the content of a webpage. 
+
+• Content Representation: The document object provides a structured representation of the content within an HTML document. It encompasses all the elements, such as text, images, forms, and other HTML elements, present on the webpage.
+
+• Access to Elements: One of the primary functions of the document object is to provide methods to access and manipulate the elements within the document. Developers commonly use methods like getElementById(), getElementsByClassName(), and querySelector() to select elements and perform actions on them.
+
+• DOM Manipulation: Through the document object, developers can dynamically modify the structure and content of the webpage using the Document Object Model (DOM). This includes adding, removing, or modifying elements and their attributes.
+
+• Events Handling: The document object facilitates event handling by allowing developers to attach event listeners to elements or the document itself. This enables interactive web development, such as responding to user actions like clicks, keystrokes, or form submissions.
+
+Window Object:
+
+• The window object represents the browser window or tab that contains the HTML document. It acts as the global object in client-side JavaScript and provides access to various browser-related functionalities. 
+
+• Global Scope: Variables and functions declared without a preceding var, let, or const keyword are automatically added to the window object and become globally accessible. This makes the window object a hub for global operations within a browser environment.
+
+• Browser Information: The window object provides information about the browser environment, including properties like navigator (information about the browser itself), location (URL of the current page), and history (navigation history).
+
+• Timers and Intervals: Developers can use the window object to create timers and intervals for executing code at specified intervals using functions like setTimeout() and setInterval().
+
+• Window Management: The window object allows developers to interact with the browser window, controlling aspects such as resizing, opening new windows or tabs, and navigating between different URLs.
+
+Key Differences:
+
+• Scope: While both objects are global, the document object specifically deals with the content and structure of the HTML document, whereas the window object encompasses the browser window and its properties.
+
+• Purpose: The document object primarily focuses on accessing and manipulating the content of a webpage, whereas the window object provides broader functionality related to the browser environment.
+
+• Hierarchy: The document object is nested within the window object. This means that while the window is the global object, a document is a property of the window.
+
